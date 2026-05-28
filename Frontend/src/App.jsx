@@ -11,7 +11,7 @@ function App() {
 
     try {
       // Enviamos los datos al Backend de Flask
-      const response = await fetch("https://proyecto-parcial-fullstack.onrender.com", {
+      const response = await fetch("https://proyecto-parcial-fullstack.onrender.com/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
